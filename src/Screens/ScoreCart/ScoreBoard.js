@@ -60,20 +60,22 @@ export default function ScoreBoard({config, research}) {
                 color: research ? 'black' : '#B296DC',
                 fontFamily: 'Montserrat-Regular',
                 lineHeight: 16,
+            
                 fontWeight: research ? '300' : '400',
               }}>
               Starting in
             </Text>
-            <View style={{bottom: 2}}>
+            
               <CustomIcon
                 name={'time'}
                 style={{
                   color: research ? '#B5C0C8' : '#D2BAF5',
                   fontSize: 14,
                   paddingHorizontal: 4,
+                  marginTop:5
                 }}
               />
-            </View>
+           
             <Text
               style={{
                 fontSize: 14,
@@ -84,17 +86,18 @@ export default function ScoreBoard({config, research}) {
               }}>
               03:23:12
             </Text>
+            
           </View>
         </View>
         <View
           style={{
-            width: config.width / 1.2,
+            width: 200,
             height: 95,
             flexDirection: 'row',
           }}>
           <View
             style={{
-              paddingTop: 50,
+              paddingTop: 30,
               height: 100,
               alignItems: 'flex-start',
             }}>
@@ -160,6 +163,7 @@ export default function ScoreBoard({config, research}) {
                   color: '#5929A1',
                   fontSize: 47,
                   lineHeight: 47,
+                  bottom:20
                 }}
               />
               <View
@@ -170,6 +174,7 @@ export default function ScoreBoard({config, research}) {
                   backgroundColor: '#542898',
                   borderTopLeftRadius: 25,
                   borderTopRightRadius: 25,
+                  bottom:20
                 }}>
                 <Image source={bg} style={{width: 75, height: 45}} />
               </View>

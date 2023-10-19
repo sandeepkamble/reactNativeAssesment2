@@ -86,17 +86,7 @@ export default function Research({config}) {
           </View>
         </View>
       </View>
-      {/* <View
-        style={{
-          zIndex: 5,
-          flex: 1,
-          width: config.width,
-          height: config.height,
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}>
-        <Modal config={config} />
-      </View> */}
+ 
     </ScreenLayout>
   );
 }

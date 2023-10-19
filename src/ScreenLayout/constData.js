@@ -13,24 +13,14 @@ export const footerMenu = [
     screen: SCREEN_NAMES.scorecart,
     name: 'Home',
   },
-  {
-    key: 'trofi',
-    image: Leagues,
-    screen: SCREEN_NAMES.leagues,
-    name: 'Leagues',
-  },
+
   {
     key: 'search',
     image: Research,
     screen: SCREEN_NAMES.research,
     name: 'Research',
   },
-  {
-    key: 'group',
-    image: Leaderboard,
-    screen: SCREEN_NAMES.leaguerboard,
-    name: 'Leaguerboard',
-  },
+
   {
     key: 'profile',
     image: Profile,

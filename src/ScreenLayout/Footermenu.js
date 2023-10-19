@@ -11,7 +11,7 @@ export default function FooterMenu() {
   return (
     <View
       style={{
-        width: width - 20,
+        width: width ,
         height: parseInt(height / 12),
         flexDirection: 'row',
         justifyContent: 'space-evenly',

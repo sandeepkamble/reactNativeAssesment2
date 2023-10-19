@@ -69,12 +69,12 @@ export default function ScoreCart({config}) {
           </View>
 
           <View style={scoreCartStyles.therdSection}>
-            <View style={scoreCartStyles.sectionLable}>
-              <Text style={scoreCartStyles.sectionLableText}>
+            
+              <Text style={[scoreCartStyles.sectionLableText,{marginTop:20}]}>
                 What your prediction?
               </Text>
-            </View>
-            <View style={scoreCartStyles.sectionButtonContainer}>
+            
+            <View style={[scoreCartStyles.sectionButtonContainer,{marginTop:20}]}>
               <TouchableOpacity
                 style={[
                   scoreCartStyles.sectionButton,
@@ -109,8 +109,8 @@ export default function ScoreCart({config}) {
             </View>
           </View>
 
-          <View style={scoreCartStyles.progressContainer}>
-            <View style={scoreCartStyles.progressSubContainer}>
+          <View style={[scoreCartStyles.progressContainer,{marginTop:40,}]}>
+            <View style={[scoreCartStyles.progressSubContainer,{alignItems:'center'}]}>
               <CustomIcon
                 name={'profile'}
                 style={scoreCartStyles.sectionIcon}
@@ -122,7 +122,7 @@ export default function ScoreCart({config}) {
             <View
               style={[
                 scoreCartStyles.progressSubContainer,
-                {justifyContent: 'flex-end'},
+                {justifyContent: 'flex-end',alignItems:'center'},
               ]}>
               <CustomIcon
                 name={'Vector1'}
@@ -135,7 +135,7 @@ export default function ScoreCart({config}) {
           </View>
 
           <View style={scoreCartStyles.progressLine}>
-            <View style={scoreCartStyles.progressLineSubContainer}>
+            <View style={[scoreCartStyles.progressLineSubContainer,{marginTop:12}]}>
               <View style={scoreCartStyles.leftProgressLine} />
               <View style={scoreCartStyles.rightProgressLine} />
             </View>

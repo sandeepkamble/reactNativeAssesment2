@@ -5,6 +5,7 @@ export const scoreCartStyles = StyleSheet.create({
     flex: 1,
     alignContent: 'flex-start',
     justifyContent: 'space-evenly',
+    margin:20
   },
   headerText: {
     flex: 0.05,
